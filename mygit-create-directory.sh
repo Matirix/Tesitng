@@ -1,4 +1,4 @@
-if [-z "$1"]; then
+if [ -z "$1"]; then
  echo "Error: No directory name given to create"
  exit 1
 fi
