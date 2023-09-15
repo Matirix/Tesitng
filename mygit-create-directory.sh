@@ -3,6 +3,9 @@ if [ -z "$1"]; then
  exit 1
 fi
  mkdir "$1"
+ cd "$1"
+ echo "New file Instantiated" > new_dir.txt
+ cd ../ 
  git add .
  git commit -m "Making an empty folder"
  git push
