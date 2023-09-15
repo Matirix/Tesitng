@@ -5,6 +5,6 @@ fi
  mkdir "$1"
  git add .
  git commit -m "Making an empty folder"
- git push .
+ git push
  echo "$1 has been added to the git repository"
 
